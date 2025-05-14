@@ -1,0 +1,65 @@
+.card-title {
+    color: #333;
+  }
+
+  section {
+  background-color: #7f718f;
+}
+
+  
+  .card-text {
+    color: #555;
+  }
+  .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f9f9f9, #ffffff);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #2c3e50;
+  font-size: 1.3rem;
+}
+
+.card-text {
+  color: #4a4a4a;
+  font-size: 0.95rem;
+}
+
+.btn-dark {
+  background-color: #333;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #555;
+}
+
+section#projects {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(70px);
+  transition: opacity 0.6s ease-out, transform 0.9s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.btn-animate {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-animate:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

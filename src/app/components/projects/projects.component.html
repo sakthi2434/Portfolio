@@ -1,0 +1,20 @@
+<section id="projects" class="min-vh-100 d-flex align-items-center">
+  <div class="container">
+    <h2 class="text-center display-4 fw-bold mb-5 fade-in" #animatedItem style="color: white;">Projects</h2>
+    <div class="row g-4 justify-content-center">
+      <!-- Project Cards -->
+      <div class="col-md-6 mb-3 col-lg-4 fade-in" *ngFor="let project of projects" #animatedItem>
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">{{ project.title }}</h5>
+            <p class="card-text flex-grow-1">{{ project.description }}</p>
+            <div class="mt-3">
+            <a *ngIf="project.demo" [href]="project.demo" class="btn btn-dark btn-animate custom-hover " target="_blank">Live Demo</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+<section id="about" class="d-flex align-items-center" style="min-height: 100vh;">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+
+      <!-- Image Column -->
+      <div #aboutSection class="col-md-6 mb-4 mb-md-0 text-center text-md-start" [@slideIn]="aboutVisible">
+        <img src="assets/2107.png" alt="Man with laptop" class="img-fluid rounded-squre float-animation" style="max-width: 450px;">
+      </div>
+
+      <!-- About Text -->
+      <div class="col-md-6 text-white text-center text-md-start" #aboutSection [@slideIn]="aboutVisible">
+        <h2 class="display-4 fw-bold mb-4 text-dark" >About Me <span class="float-animation">🫡</span></h2>
+        <p class="lead">
+          I'm Sakthi, a full stack enthusiast with a strong interest in backend development and clean UI design.
+          I love building full-stack apps from scratch, diving deep into Angular + Spring Boot, and always open to learning new tech.
+        </p>
+        <p>
+          I'm currently seeking opportunities to grow professionally and work on impactful projects that challenge me and sharpen my skills.
+        </p>
+        <a href="https://drive.google.com/file/d/1hV1dpdn9GETmeS-bcwh5w8IK1MHNDCT4/view?usp=drivesdk" 
+           class="btn btn-outline-dark mt-3 btn-animate custom-hover mb-3" target="_blank">
+          Download Resume
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>

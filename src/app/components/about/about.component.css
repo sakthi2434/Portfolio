@@ -1,0 +1,68 @@
+
+
+
+  @media (max-width: 991.98px){
+   img{
+      width: 350px;
+    }
+  }
+
+  #about{
+    background-color: rgb(146, 168, 168);
+  }
+
+  .btn-animate:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .float-animation {
+    animation: floatUpDown 3s ease-in-out infinite;
+  }
+  
+  @keyframes floatUpDown {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
+  @keyframes floatY {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .float-animation {
+    animation: floatY 3s ease-in-out infinite;
+    display: inline-block;
+  }
+  
+  .custom-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-hover:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .slide-in {
+    opacity: 0;
+    transform: translateX(70px);
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  @keyframes slideIn {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    
+  
+  
+  }
+
+  #aboutsection {
+    transition: all 0.60s ease-out;
+  }
+  

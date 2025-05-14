@@ -1,0 +1,28 @@
+#contact {
+  background:rgb(28, 30, 28) ;
+  padding: 60px 0;
+}
+
+input, textarea {
+  border-radius: 8px;
+}
+
+.btn-animate {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-animate:hover {
+  transform: translateY(-3px);
+  background-color: #2651dd;
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 0.6s ease-out;
+}
+
+.animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
